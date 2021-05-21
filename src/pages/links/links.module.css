@@ -1,0 +1,82 @@
+.container, .header, .linksContainer, .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.gabiIg {
+  background: linear-gradient(180deg, var(--orange), var(--yellow));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.linkGroup1, .linkGroup2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 272px;
+  height: 60px;
+  
+  color: var(--white);
+  
+  border-radius: 7px;
+
+  transition: all ease 0.4s;
+}
+.linkGroup1 {
+  background: var(--purple);
+  box-shadow: 2px 2px var(--pink);
+}
+.linkGroup2 {
+  background: var(--orange);
+  box-shadow: 2px 2px var(--yellow);
+}
+
+.linkGroup1:hover, .linkGroup2:hover {
+  transform: scale(1.05);
+}
+
+.linkGroup1:hover {
+  background: var(--pink);
+  box-shadow: -2px -2px var(--purple);
+
+}
+
+.linkGroup2:hover {
+  background: var(--yellow);
+  box-shadow: -2px -2px var(--orange);
+}
+
+.link{
+  margin:0.7rem 0;
+}
+
+.footer, .linksContainer, .span {
+  margin: 1rem;
+  color: var(--text);
+}
+
+.questMasterFoo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (max-width: 460px) {
+  .linkGroup1, .linkGroup2  {
+    width: 230px;
+}
+
+.questMasterFoo {
+  display: flex;
+  flex-direction: column;
+}
+}
