@@ -11,6 +11,7 @@ body {
   --white: #FFF;
   --text: #1a1a1a;
   --darkbg: #121212;
+  --shadow: rgba(0, 0, 0, 0.25);
 
   --orange: #E65232;
   --purple: #4A0D44;
