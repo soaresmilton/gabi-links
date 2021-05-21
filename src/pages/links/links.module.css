@@ -72,6 +72,10 @@
   margin: 0 1rem;
 }
 
+.footer {
+  margin: 1rem;
+}
+
 .questMasterFoo {
   display: flex;
   flex-direction: column;
@@ -80,6 +84,13 @@
   width: 100%;
 }
 
+
+@media (min-width: 1024px) {
+  .container {
+    background-image: url('../../../public/images/background4.svg');
+    background-size: cover;
+  }
+  }
 
 
 @media (max-width: 1024px) {
