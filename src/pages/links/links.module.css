@@ -68,8 +68,8 @@
 }
 
 .footer, .linksContainer, .span {
-  margin: 1rem 0;
   color: var(--text);
+  margin: 0 1rem;
 }
 
 .questMasterFoo {
