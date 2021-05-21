@@ -82,15 +82,12 @@
 
 
 
-
-@media (max-width: 768px) {
-.container {
-  background-image: url('../../../public/images/background2.svg');
-  background-size: cover;
-}
-}
-
-
+@media (max-width: 1024px) {
+  .container {
+    background-image: url('../../../public/images/background2.svg');
+    background-size: cover;
+  }
+  }
 
 @media (max-width: 460px) {
   .linkGroup1, .linkGroup2  {
@@ -98,8 +95,10 @@
 }
 
 .container {
-  background-image: url('../../../public/images/background3.svg');
-  
-  background-size: cover;
+  background-image: none;
+}
+
+.footer {
+  margin-top: 0.5rem;
 }
 }
