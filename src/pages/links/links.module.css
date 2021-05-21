@@ -8,13 +8,24 @@
 .container {
   width: 100vw;
   height: 100vh;
+  background-image: url('../../../public/images/background1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gabiIg {
   background: linear-gradient(180deg, var(--orange), var(--yellow));
   -webkit-background-clip: text;
   color: transparent;
+  transform: scale(1.2);
+
+  transition: all .3s ease;
 }
+
+.gabiIg:hover {
+  transform: scale(1.4);
+}
+
 
 .linkGroup1, .linkGroup2 {
   display: flex;
@@ -57,24 +68,38 @@
 }
 
 .footer, .linksContainer, .span {
-  margin: 1rem;
+  margin: 1rem 0;
   color: var(--text);
 }
 
 .questMasterFoo {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  text-align: left;
 
+  width: 100%;
 }
+
+
+
+
+@media (max-width: 768px) {
+.container {
+  background-image: url('../../../public/images/background2.svg');
+  background-size: cover;
+}
+}
+
+
 
 @media (max-width: 460px) {
   .linkGroup1, .linkGroup2  {
     width: 230px;
 }
 
-.questMasterFoo {
-  display: flex;
-  flex-direction: column;
+.container {
+  background-image: url('../../../public/images/background3.svg');
+  
+  background-size: cover;
 }
 }

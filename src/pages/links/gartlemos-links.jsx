@@ -14,6 +14,8 @@ export default function GartlemosLinks() {
       </Head>
 
       <main className={styles.container}>
+
+
         <header className={styles.header}>
           <div className={styles.image}>
             <Image
@@ -91,6 +93,7 @@ export default function GartlemosLinks() {
             />
           </div>
         </footer>
+
       </main>
     </>
   )
