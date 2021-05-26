@@ -1,0 +1,20 @@
+.container {
+  z-index: 1;
+}
+
+.inputText, .inputButton {
+  padding: 1rem;
+  margin: 0 0.4rem;
+}
+
+.inputButton {
+  cursor: pointer;
+  transition: 0.2s ease all ;
+  transition: all .3s ease;
+}
+
+.inputButton:hover {
+  color: var(--orange);
+  font-weight: bold;
+  transform: scale(1.05);
+}
