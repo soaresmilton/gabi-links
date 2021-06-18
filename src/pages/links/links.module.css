@@ -29,10 +29,10 @@
 
 .linkGroup1, .linkGroup2 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 
-  width: 272px;
+  width: 300px;
   height: 60px;
   
   color: var(--white);
