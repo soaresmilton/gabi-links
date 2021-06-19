@@ -97,6 +97,7 @@
   .container {
     background-image: url('../../../public/images/background2.svg');
     background-size: cover;
+    height: 100%;
   }
   }
 
