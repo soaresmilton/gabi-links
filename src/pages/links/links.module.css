@@ -92,12 +92,17 @@
   }
   }
 
+  @media (max-width: 1440px) {
+    .container {
+      height: 100%;
+    }
+  }
+
 
 @media (max-width: 1024px) {
   .container {
     background-image: url('../../../public/images/background2.svg');
     background-size: cover;
-    height: 100%;
   }
   }
 
