@@ -78,18 +78,6 @@ export default function GartlemosLinks() {
             </div>
 
           </a>
-
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfHlQ1vk5bfvc2fhf1-m-2I9ALaGwHsMCRWTxZ6iHBnkfzIXQ/viewform" target="_blank" className={styles.link}>
-
-            <div className={styles.linkGroup2}>
-              <i class="fas fa-calendar-alt fa-2x"></i>
-
-
-              <span>Oficina</span>
-            </div>
-
-          </a>
-
         </section>
 
         <footer className={styles.footer}>
