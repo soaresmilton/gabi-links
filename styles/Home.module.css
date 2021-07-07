@@ -58,7 +58,6 @@
 }
 
 @media screen and (max-width: 460px) {
-
   .header {
     position: relative;
     top: 1.5rem;
@@ -71,6 +70,7 @@
   .main {
     flex-direction: column;
     text-align: center;
+    flex: 1;
   }
 
   .main .textContainer h1 {
