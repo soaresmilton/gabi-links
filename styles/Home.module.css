@@ -58,6 +58,8 @@
 }
 
 @media screen and (max-width: 460px) {
+
+
   .header {
     position: relative;
     top: 1.5rem;
@@ -70,7 +72,6 @@
   .main {
     flex-direction: column;
     text-align: center;
-    flex: 1;
   }
 
   .main .textContainer h1 {
@@ -87,6 +88,8 @@
 
   .anchor {
     font-size: 1.4rem;
+    position: relative;
+    bottom: 3rem;
   }
 
   .bgFooter {
