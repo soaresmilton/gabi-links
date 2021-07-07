@@ -12,12 +12,8 @@ export default function GartlemosLinks() {
           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
           crossorigin="anonymous" />
         <link rel="icon" href="/images/GartIcon.svg" />
-
       </Head>
-
       <main className={styles.container}>
-
-
         <header className={styles.header}>
           <div className={styles.image}>
             <Image
@@ -34,13 +30,10 @@ export default function GartlemosLinks() {
 
         <section className={styles.linksContainer}>
           <a href="https://www.tiktok.com/@gartlemos?" target="_blank" className={styles.link}>
-
             <div className={styles.linkGroup1}>
               <i class="fab fa-tiktok fa-2x"></i>
-
               <span>TikTok</span>
             </div>
-
           </a>
           <a href="https://br.pinterest.com/gartlemos/_created/" target="_blank" className={styles.link}>
 

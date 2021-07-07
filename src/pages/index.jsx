@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Form from '../components/Form/index';
+import Button from '../components/Button';
 
 import styles from '../../styles/Home.module.css'
 
@@ -22,16 +23,46 @@ export default function Home() {
 
       <div className={styles.container}>
 
-        <span className={styles.uppertext}>OPS... Pedimos desculpas pelo incoveniente,</span>
-        <span className={styles.uppertext}>Mas, estamos desenvolvendo algo incrível</span>
-        <span className={styles.uppertext}>Deixe seu e-mail para ficar ligado nas novidades.</span>
-        <h1 className={styles.title}>Coming <span className={styles.soontext}>soon</span> </h1>
-        <div className={styles.colorOverlay}></div>
-        <Form></Form>
-
+        <header className={styles.header}>
+          <div className={styles.logo}>
+            <Image
+              src="/images/Gartlemos-logo.svg"
+              height={76.97}
+              width={180}
+              alt="Gartlemos Logo"
+              className={styles.image}
+            />
+          </div>
+        </header>
+        <main className={styles.main}>
+          <div className={styles.textContainer}>
+            <h1>Obrigada pela visita!</h1>
+            <p>
+              Desculpe pelo transtorno,
+            </p>
+            <p>
+              mas estamos construindo algo incrível!
+            </p>
+            <p>
+              Volte em breve.
+            </p>
+          </div>
+          <div className={styles.imgContainer}>
+            <Image
+              src="/images/creating-bg.svg"
+              height={410}
+              width={575}
+              alt="Home page background"
+              className={styles.bgImg}
+            />
+          </div>
+        </main>
         <Link href="/links/gartlemos-links">
           <a className={styles.anchor}>Links <i class="fas fa-external-link-alt"></i></a>
         </Link>
+        <div className={styles.bgFooter}>
+        
+        </div>
 
       </div>
 

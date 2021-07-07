@@ -1,50 +1,108 @@
 .container {
-  width: 100vw;
-  height: 100vh;
-
- background-image: url('../public/images/homebg1.jpg');
- background-size: cover;
- background-position: center;
-background-repeat: no-repeat;
-background-clip: border-box;
-
-  color: #fff;
-  text-shadow: 4px 0px 5px black;
-
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   position: relative;
-}
-.title {
-  font-size: 4rem;
-}
-.anchor, .uppertext{
-  font-size: 1.3rem;
-}
-.title, .anchor, .uppertext, .soontext {
   z-index: 1;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.anchor {
-  width: max-content;
-  margin: 2rem auto;
-  transition: all 0.3s ease;
-}
-
-.anchor:hover {
-  color: var(--orange);
-}
-
-.soontext {
-  color: var(--orange);
-  text-shadow: 5px 5px 10px  var(--shadow);
-}
-
-.colorOverlay {
+.main {
+  margin: 2rem 0;
+  padding: 0 2rem;
   width: 100%;
-  height: 100%;
-  background: rgba(0,0,0, 0.75);
-  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
 }
+.textContainer h1{
+  color: var(--orange);
+  font-size: 4.8rem;
+}
+.textContainer p,
+.footer h3 {
+  font-size: 2.4rem;
+  color: var(--dark-grey-text);
+  font-weight: 400;
+
+}
+
+.bgFooter {
+  height: 50%;
+  width: 100%;
+  bottom: -20rem;
+  position: absolute;
+  z-index: -1;
+  background: url('/images/bgFooter.svg') no-repeat bottom/contain;
+}
+.anchor {
+  color: var(--orange);
+  font-size: 2rem;
+  transition: all ease .3s;
+}
+.anchor:hover {
+  color: var(--purple);
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 1440px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 460px) {
+
+  .container {
+    overflow: visible;
+  }
+
+  .header {
+    position: relative;
+    top: 1.5rem;
+  }
+  
+  .logo {
+    width: 140px;
+  }
+
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main .textContainer h1 {
+    font-size: 2.35rem;
+  }
+
+  .main .textContainer p {
+    font-size: 1.3rem
+  }
+
+  .main .imgContainer {
+    width: 20rem;
+  }
+
+  .anchor {
+    font-size: 1.4rem;
+    color: #f2f2f2;
+  }
+
+  .anchor:hover {
+    color: var(--yellow);
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+
+  .bgFooter {
+    bottom: 0;
+    background: url('/images/bgFooter-mobile.svg') no-repeat bottom/contain;
+  }
+}
+

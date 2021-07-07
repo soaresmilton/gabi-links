@@ -109,6 +109,11 @@
   }
 
 @media (max-width: 460px) {
+
+  .container, .header, .linksContainer, .footer {
+    font-size: 1.4rem;
+  }
+
   .linkGroup1, .linkGroup2  {
     width: 230px;
 }
