@@ -91,13 +91,6 @@
 
   .anchor {
     font-size: 1.4rem;
-    color: #f2f2f2;
-  }
-
-  .anchor:hover {
-    color: var(--yellow);
-    text-decoration: underline;
-    transform: scale(1.1);
   }
 
   .bgFooter {
