@@ -44,7 +44,7 @@
   transition: all ease .3s;
 }
 .anchor:hover {
-  color: var(--purple);
+  color: var(--yellow);
   text-decoration: underline;
   transform: scale(1.1);
 }
