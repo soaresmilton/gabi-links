@@ -86,8 +86,8 @@ export default function GartlemosLinks() {
                 alt="Quest Master"
                 className={styles.image}
               />
-            </a>
-          </div>
+              </a>
+          </div>    
         </footer>
 
       </main>
