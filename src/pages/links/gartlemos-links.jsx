@@ -78,7 +78,7 @@ export default function GartlemosLinks() {
             <span className={styles.span}>
               Desenvolvido por:
             </span>
-            <a href="https://www.questmaster.com.br/" target="_blank">
+            <a href="https://www.questmaster.com.br/" target="_blank" >
               <Image
                 src="/images/questmasterlogo.svg"
                 height={55}
